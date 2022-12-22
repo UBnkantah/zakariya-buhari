@@ -1,0 +1,39 @@
+.prof-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    padding-top: 100px;
+    gap: 1em;
+}
+.prof-div div{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.prof-div div img{
+    width: 100%;
+}
+.prof-div div p{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.prof-div div h2 span{
+    color: rgb(19, 84, 220);
+}
+@media screen and (max-width: 767px){
+    .prof-div{
+        padding: 20px 50px;
+        padding-top: 100px;
+    }
+    .prof-div div p{
+        font-size: 20px;
+    }
+    .prof-div div h2{
+        font-size: 23px;
+    }
+}

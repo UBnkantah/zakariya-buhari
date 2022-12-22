@@ -1,0 +1,72 @@
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    text-align: start;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.desBlocs-details{
+    max-width: 500px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+}
+.desBlocs-details h2{
+    padding-bottom: 0.7em;
+}
+.desBlocs-img{
+    max-width: 500px;
+}
+.desBlocs-img img{
+    width: 100%;
+}
+.div-pro{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    max-width: 100%;
+}
+.div-pro div{
+    max-width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+hr{
+    width: 100%;
+    /* height: 0.5em; */
+}
+.p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: start;
+}
+h2{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.f{
+    padding: 0 50px;
+}
+.body-div p{
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.body-div p span{
+    color: rgb(19, 84, 220);
+}
+
+@media screen and (max-width: 767px){
+    .desBlocs-details{
+        max-width: 400px;
+    }
+    .div-pro div{
+        max-width: 200px;
+    }
+}
