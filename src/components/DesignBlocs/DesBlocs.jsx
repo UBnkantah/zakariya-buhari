@@ -28,7 +28,7 @@ const DesBlocs = () => {
                                 <p className='p'>Visit Website</p>
                             </div>
                             <div>
-                                <p >{items.link}</p>
+                                <p ><a href={items.link}>{items.link}</a></p>
                             </div>
                         </div>
                         <hr />
@@ -48,7 +48,6 @@ const DesBlocs = () => {
                 </div>
             )
         })}
-        <p className='f'>Feel Free to contact me here: <span>buharizakariya04@gmail.com</span></p>
     </div>
     
   )

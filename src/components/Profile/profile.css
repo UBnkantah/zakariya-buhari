@@ -6,6 +6,8 @@
     padding: 20px 100px;
     padding-top: 100px;
     gap: 1em;
+    color: white;
+    background-color: rgb(19, 84, 220);
 }
 .prof-div div{
     max-width: 700px;
@@ -20,7 +22,7 @@
 .prof-div div p{
     font-size: 25px;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .prof-div div h2 span{
     color: rgb(19, 84, 220);
